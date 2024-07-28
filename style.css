@@ -27,7 +27,7 @@ form{
     background-color: rgba(158, 221, 232, 0.087); 
     border-radius: 1.1vw;
     font-size: larger;
-    border: 2px solid rgba(16, 16, 48, 0.687);
+    border: 2px solid rgba(120, 120, 165, 0.687);
     box-shadow: rgba(208, 213, 218, 0.687);
 }
 #btn{
@@ -89,5 +89,44 @@ form{
     border: 2px solid rgb(87, 128, 169);
 }
 
+@media (max-width:600px) {
+    #headline{
+        font-size: 7.5vw;
+    } 
+
+    #input_image{
+        width: 48vw;
+        height: 8vw;
+        font-size: 16px;
+    }
+    #btn{
+        width: 15vw;
+        height: 8vw;
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .search{
+        align-items: center;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .search_result{
+        width: 80vw;
+        height: 100vw ;
+    }
+
+    .search_result a{
+        font-size: 5vw;
+    }
+    
+    #showmore{
+        height: 10vw;
+        width: 24vw;
+        margin-bottom: 5vw;
+        margin-left: 40vw;
+    }
+}
 
 
